@@ -1,6 +1,13 @@
-
+.social-page {
+  background-color: azure;
+  border-radius: 20px;
+  height: 200px;
+  padding: 30px;
+  margin: 0 auto;
+}
   .portfoliopage-pic {
     padding-bottom: 10px;
+
   }
 
   @media (min-width: 
