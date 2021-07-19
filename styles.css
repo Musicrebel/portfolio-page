@@ -1,11 +1,6 @@
-@media (min-width: 766px) {
-  #navbarMenuToggler, #navbarMenu {
-    display: none !important;
+
+  .portfoliopage-pic {
+    padding-bottom: 10px;
   }
-  #navbarMenu {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background-color: white;
-  }
+
+  @media (min-width: 

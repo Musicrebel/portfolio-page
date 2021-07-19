@@ -16,59 +16,85 @@
     <title>Noel Portfolio</title>
   </head>
   <body>
-    <nav class="container navbar navbar-fixed navbar-expand-xl border-bottom">
-      <p>Steven Noel</p>
-      <ul class="navbar d-none d-md-flex ml-auto">
-        <li type="button" class="btn btn-light" href="#">About Me</li>
-        <li type="button" class="btn btn-light" href="#">Skills</li>
-        <li type="button" class="btn btn-light" href="#">Portfolio</li>
-        <li type="button" class="btn btn-light" href="#">Social Media</li>
-      </ul>
-
-    <a class="navbar-toggler collapsed" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler"><img height="25" width="25" src="./images/menu-svgrepo-com.svg"></a>
-
-      <div class="collapse navbar-collapse wrapper" id="navbarMenu">
-          <ul class="navbar ml-auto">
-            <li type="button" class="btn btn-light" href="#">About Me</li>
-            <li type="button" class="btn btn-light" href="#">Skills</li>
-            <li type="button" class="btn btn-light" href="#">Portfolio</li>
-            <li type="button" class="btn btn-light" href="#">Social Media</li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     </nav>
-    <div class="container-fluid p-0">
-      <div class="bg-dark background-image">
-        <div class="text-center">
+    <div class="container-fluid p-0 mt-5 pt-4">
+      <div class="background-image col-12">
+        <div>
+        <div class="position-relative" id="frontpage-text">
           <h1>Steven Noel</h1>
           <h3>Aspiring Web Developer...</h3>
         </div>
-      </div>
-      <div class="col-12 skills-page text-center">
-        <h1>Skills/Progress</h1>
-            <div class="scrollableRow">
-              <div class="row d-flex m-auto justify-content-between pt-5 flex-nowrap">
-                <div class="pr-2"><img style="width: 100px;" src="./images/Progress Logo/html-svgrepo-com.svg"></div>
-                <div class="pr-2"><img style="width: 100px;" src="./images/Progress Logo/javascript-svgrepo-com.svg"></div>
-                <div class="pr-2"><img style="width: 100px;" src="./images/Progress Logo/react-logo-svgrepo-com.svg"></div>
-                <div class="pr-2">
-                  <p>dynamic</p>
-                </div>
-                <div class="pr-3"><img style="width: 100px;" src="./images/Progress Logo/Ruby_logo.svg"></div>
-                <div class="pr-3"><img style="height: 100px; width: 100px;" src="./images/Progress Logo/Ruby_on_Rails_logo.svg"></div>
-                <div class="pr-3"><img style="width: 100px;" src="./images/Progress Logo/Circle-icons-stack.svg"></div>
-                <div class="pr-3"><img style="width: 100px;" src="./images/Progress Logo/achievement-success-svgrepo-com.svg"></div>
-                <div class="pr-2"><img style="width: 100px;" src="./images/Progress Logo/job-search-svgrepo-com.svg"></div>
-              </div>
-              <div class="d-xl-block d-none flex-nowrap">
-                <div class="progress mt-5">
-                  <div class="progress-bar bg-warning" style="width:8%"></div>
-                </div>
-              </div>
-            </div>
+        </div>
       </div>
 
-    </div>
+      <div class="container portfolio-page py-5">
+        <div class="col-12">
+          <div class="row">
+            <div class="portfoliopage-pic col-12 col-md-9">
+              <img class="w-100" src="https://via.placeholder.com/500x400">
+            </div>
+            <div class="portfoliopage-info col-12 col-md-3">
+              <h2>Website Placeholder</h2>
+              <p>Description of website</p>
+            </div>
+            <div class="portfoliopage-pic col-12 col-md-9">
+              <img class="w-100" src="https://via.placeholder.com/500x400">
+            </div>
+            <div class="portfoliopage-info col-12 col-md-3">
+              <h2>Website Placeholder</h2>
+              <p>Description of website</p>
+            </div>
+            <div class="portfoliopage-pic col-12 col-md-9">
+              <img class="w-100" src="https://via.placeholder.com/500x400">
+            </div>
+            <div class="portfoliopage-info col-12 col-md-3">
+              <h2>Website Placeholder</h2>
+              <p>Description of website</p>
+            </div>
+                       <div class="portfoliopage-pic col-12 col-md-9">
+              <img class="w-100" src="https://via.placeholder.com/500x400">
+            </div>
+            <div class="portfoliopage-info col-12 col-md-3">
+              <h2>Website Placeholder</h2>
+              <p>Description of website</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class=" col-12">
+          <div class="row social-page">
+              <div class="m-1 m-auto social-media-links"><img style="width: 100px;" src="./images/user-svgrepo-com.svg"></div>
+              <div class="d-block col-12 text-center">
+                <h4><b>Social</b></h4>
+              </div>
+              <div class="d-flex m-auto">
+                <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded-circle" href="#"><img style="width: 40px;" src="./images/logo-facebook-svgrepo-com.svg"></a></div>
+                <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded" href="#"><img style="width: 40px;" src="./images/instagram-logo-svgrepo-com.svg"></a></div>
+                <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded" href="#"><img style="width: 40px;" src="./images/linkedin-svgrepo-com.svg"></a></div>
+              </div>  
+          </div>
+        <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="row social-page">
+            <div class="m-1 m-auto"><img style="width: 100px;" src="./images/email-svgrepo-com.svg"></div>
+            <div class="d-block col-12 text-center">
+              <h4><b>Email</b></h4>
+              <p class="bg-light py-4 rounded" id="emailadd">steven.noelnyc@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row social-page" id="social-media">
+            <div class="m-1 m-auto social-media-links"><img style="width: 100px;" src="./images/phone-svgrepo-com.svg"></div>
+            <div class="d-block col-12 text-center">
+              <h4 class="phone-font"><b>Phone Number</b></h4>
+              <p class="bg-light py-4 rounded">+1 (347)382-1551</p>
+            </div>
+          </div>
+        </div>
+        </div>
 
   </body>
   </html>
