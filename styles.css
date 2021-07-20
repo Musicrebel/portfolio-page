@@ -1,8 +1,8 @@
 body {
-  background-image: url(./images/clay-leconey-0dIE1qLjfnM-unsplash.jpg);
+  background-image: url(./images/solen-feyissa-YU24Vytv1vQ-unsplash.jpg);
 }
 .main-page {
-  padding: 300px 0px 300px 0px;
+  margin: 300px 0px 300px 0px;
 }
 .background-image {
   background-repeat: no-repeat;
@@ -11,9 +11,14 @@ body {
   width: 500px;
   background-position: center;
 }
+@media (max-width: 786px) {
+  .background-image {
+    height: 300px;
+    width: 300px;
+}
+}
 .portfoliopage-pic {
   padding: 20px;
 }
 .socialmedia-page {
   margin: 200px 0pc 200px 0px;
-}
