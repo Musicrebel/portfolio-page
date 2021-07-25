@@ -21,13 +21,16 @@ body {
 .portfoliopage-pic {
   padding: 20px;
 }
+.my-page {
+  padding-top: 30px;
+}
 @media (min-width: 768px) {
 .socialmedia-page, .my-page {
-  padding: 200px 0pc 200px 0px;
+  margin: 200px 0pc 200px 0px;
 }
 }
 @media (max-width: 767px) {
   .socialmedia-page, .my-page {
-    padding: 50px 0pc 50px 0px;
+    margin: 50px 0pc 50px 0px;
   }
   }
