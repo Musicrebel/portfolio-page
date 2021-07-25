@@ -16,7 +16,11 @@ body {
   .background-image {
     height: 300px;
     width: 300px;
-}
+    }
+  .main-page {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
 }
 .portfoliopage-pic {
   padding: 20px;
